@@ -6,7 +6,7 @@ main () {
     
     for(jogada = 1; jogada <= 6000; jogada++)
     {
-        face = 1 + rand() % 6;
+        face = 1 + rand()%6;
         
         switch (face)
         {
