@@ -11,6 +11,6 @@ int main () {
     printf(" A soma de %d e %d e %d\n", num1, num2, total);
     system("pause");
 }
-int soma (int num1, int num2){
-    return num1 + num2;
+int soma (int n1, int n2){
+    return n1 + n2;
 }
