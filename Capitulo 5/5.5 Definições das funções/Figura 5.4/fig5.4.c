@@ -1,17 +1,17 @@
 /*Encontrar o maior de três inteiros*/
 #include <stdio.h>
 #include <stdlib.h>
-int maximum (int, int, int); /*protótipo da função*/
+int maximum (int x, int y, int z); /*protótipo da função*/
 main () {
     int a, b, c;
     printf("Entre com tres inteiros: ");
     scanf("%d%d%d", &a, &b, &c);
-    printf("O maior e: %d\n", /*maximum(a, b, c)*/a);
+    printf("O maior e: %d\n", maximum(a, b, c));
     system("pause");
     return 0;
 }
 /*Definição da função maxima*/
-int maximum(int x, int y, int z);
+int maximum(int x, int y, int z)
 {
     int max = x;
     
