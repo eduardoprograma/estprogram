@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 main () {
-    int x;
+    int x = 0;
     double y = 0;
     printf("Digite um numero inteiro diferente de -1: ");
     scanf("%d", &x);
-    for(x = 0; x != -1; x)
+    for(x; x != -1; x)
     {
         y = floor(x * 10 + .5);
         printf("\nO numero inteiro arrendodado: %f\n", y);
