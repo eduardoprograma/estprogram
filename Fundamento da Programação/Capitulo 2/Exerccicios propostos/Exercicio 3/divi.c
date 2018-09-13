@@ -14,11 +14,11 @@ int main() {
     
     if (n2 != 0) {
         divi = n1 / n2;
-        printf("O valor da diviao e %.2f", divi);
+        printf("O valor da diviao e %.2f\n\n", divi);
     }
     else
     {
-        printf("O segundo numero não pode ser = 0");
+        printf("O segundo numero não pode ser = 0\n");
     }
     printf("Fim do programa.\n\n");
     system("pause");
