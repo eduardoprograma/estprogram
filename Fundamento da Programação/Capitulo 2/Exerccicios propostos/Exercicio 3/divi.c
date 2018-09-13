@@ -18,7 +18,7 @@ int main() {
     }
     else
     {
-        printf("O segundo numero não pode ser = 0")
+        printf("O segundo numero não pode ser = 0");
     }
     printf("Fim do programa.\n\n");
     system("pause");
