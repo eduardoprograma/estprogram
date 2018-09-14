@@ -13,7 +13,7 @@ main(){
     /*Bloco de comando*/
     A = (digMaior * digMenor) / 2;
     /*Saida de valores das variáveis*/
-    printf("O valor da area do losango e %.1f", A);
+    printf("O valor da area do losango e %.1f\n\n", A);
     /*Fim do código*/
     system("pause");
     return 0;
