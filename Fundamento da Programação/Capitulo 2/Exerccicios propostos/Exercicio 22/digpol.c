@@ -4,11 +4,11 @@
 main()
 {
 	/*Declare a variavel*/
-	float ND, NL;
+	int ND, NL;
 	/*Entrada de variavel*/
 	printf("Programa para calculo de poligonos\n\n");
 	printf("Digite o numero de lados do poligono: ");
-	scanf("%f", &NL);
+	scanf("%d", &NL);
 	/*Bloco de comandos*/
 	ND = (NL * (NL - 3)) / 2;
 	/*Saida de variaveis*/
