@@ -15,8 +15,7 @@ main()
 	printf("Escolha uma opção:\n\n"
 	       "1 - Média\n"
 	       "2 - Diferença\n"
-	       "3 - Produto\n"
-		   "4 - Divisão\n");
+	       "3 - Produto\n");
 	printf("Escolha... Digite agora a opção: ");
 	scanf("%d", &NC);
 	/*Bloco de comando*/
@@ -36,14 +35,10 @@ main()
 				printf(" A difrença entre os números é %.1f\n", O);
 			}
                break;
-		case 3:
+		case 3:		
 		    O = n1 * n2;
 		    printf("O produto dos dois números é %.1f\n", O);
-               break;
-		case 4:
-		    O = n1 / n2;
-		    printf("A divisão dos dois números é %.1f\n", O);
-               break;
+            break;
         default:
             printf("Reinicie e escolha uma opção valida\n");
             break;
