@@ -37,6 +37,8 @@ main()
             printf("Digite um numero entre 92 e 1478.\n\n");
         }
         CN = 0;
+        P = 0;
+        NP = 0;
         printf("Digite um número: ");
 	    scanf("%d", &N);
     }
