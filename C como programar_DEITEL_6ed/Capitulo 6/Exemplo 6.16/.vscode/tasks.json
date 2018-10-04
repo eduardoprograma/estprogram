@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "vet1.c"
+                "-g", "fig06_16.c"
             ],
             "group":{
                 "kind": "build",
