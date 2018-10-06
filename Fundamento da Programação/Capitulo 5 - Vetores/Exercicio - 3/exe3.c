@@ -26,15 +26,16 @@ int main(){
             scanf("%d", &q);
             for(i = 0; i < SIZE1; i++)
             {
-                j++;
-                if (vetor2[j] > 0 && vetor2[j] >= q) {
-                    vetor2[j] -= q; //Atualiza o estoque
-                    printf("\nPedidio atendido.\nObrigado! Volte sempre.\n\n");
-                    break;
-                }
-                else{
-                    printf("\nNão temos estoque suficiente desta mercadoria.\n\n");
-                    break;
+                while(cp == vetor1[i]){
+                    if (vetor2[i] > 0 && vetor2[i] >= q) {
+                        vetor2[i] -= q; //Atualiza o estoque
+                        printf("\nPedidio atendido.\nObrigado! Volte sempre.\n\n");
+                        break;
+                    }
+                    else{
+                        printf("\nNão temos estoque suficiente desta mercadoria.\n\n");
+                        break;
+                    }
                 }
             }
         }
@@ -49,9 +50,9 @@ int main(){
     printf("Estoque do atualiazado:\n");
     printf("%5s%15s\n", "Código", "Quantidade");
     j = 0;
-    for(i = 0; i < SIZE1; i++ && j++)
+    for(i = 0; i < SIZE1; i++)
     {
-        printf("%3d%15d\n", vetor1[i], vetor2[j]);
+        printf("%3d%15d\n", vetor1[i], vetor2[i]);
     }
     
     system("pause");
