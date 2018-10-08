@@ -38,11 +38,11 @@ int main()
         printf("\n");
     }
     /* Relatório de todos os vendores e seus valores a receber */
-    printf("%s\t%s\t%s\t\n", "Vendedor", "Total de Vendas", "Total a receber");
+    printf("%10s\t%10s\t%20s\t\n", "Vendedor", "Total de Vendas", "Total a receber");
     for(i = 0; i < SIZENL; i++)
     {
         vt = vetorV[i] + (vetorV[i] * vetorP[i]);
-        printf("%s\t%20.2f\t%20.2f\t\n", vetorN[i], vetorV[i], vt);
+        printf("%10s\t%15.2f\t%20.2f\t\n", vetorN[i], vetorV[i], vt);
         //printf("%s\n", vetorN[i]); // Teste para o nome dos vendedores
     }
 
