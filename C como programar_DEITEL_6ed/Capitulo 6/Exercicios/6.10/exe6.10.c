@@ -29,7 +29,7 @@ main()
     }
     
     /* Identificação da tabela */
-    printf("\n\n%15s\t%15s\t%15s\t%15s\t\n", "Nome", "Vendas", "Porcentagem", "TOTAL");
+    printf("\n\n%10s\t%15s\t%15s\t%15s\t\n", "Nome", "Vendas", "Porcentagem", "TOTAL");
 
     /* Bloco de comandos */
     for(i = 0; i < NOMEL; i++)
@@ -38,11 +38,11 @@ main()
         vetorTotal[i] = vetorVendas[i] + porcentagem + 200;
 
         /* Saída de dados */
-        printf("%s\t%15.2f\t%15.2f\t%15.2f\t\n", vetorNome[i], vetorVendas[i], porcentagem, vetorTotal[i]);
+        printf("%20s\t%15.2f\t%15.2f\t%15.2f\t\n", vetorNome[i], vetorVendas[i], porcentagem, vetorTotal[i]);
     }
     
     /* Saída de dados conforme pedido no exercicio */
-    for(i = 0; i < NOMEL; i++)
+    for(i = 0; i < TOTAL; i++)
     {
         if (200 <= vetorTotal[i] && vetorTotal[i] < 299) {
             d299++;
@@ -81,7 +81,7 @@ main()
     printf("%s\t%d\t\n", "$700 - $799", d799);
     printf("%s\t%d\t\n", "$800 - $899", d899);
     printf("%s\t%d\t\n", "$900 - $999", d999);
-    printf("%s\t%d\t\n", "$1000", d1000);
+    printf("%s\t%d\t\n", "$1000      ", d1000);
     system("pause");
     return 0;
 }
