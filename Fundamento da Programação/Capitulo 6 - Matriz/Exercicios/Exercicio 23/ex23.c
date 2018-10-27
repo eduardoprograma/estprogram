@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 4x5, calcule e mostre um vetor co cinco pposições, onde cada posição contém a soma dos elementos de cada coluna da matriz. Mostre apenas os elementos dos vetores maiores que 10. Se não existir nenhum elemento maior que dez mostre uma mensagem.*/

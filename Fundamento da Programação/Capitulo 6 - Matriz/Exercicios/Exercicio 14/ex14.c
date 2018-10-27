@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 12x13 e divida todos os elementos de cada linha pelo maior elemento em módulo daquele linha. Escreva a matriz lida e a modificada.*/

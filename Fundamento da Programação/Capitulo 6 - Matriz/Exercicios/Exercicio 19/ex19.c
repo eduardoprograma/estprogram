@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 5x5 com números reais e encontre o maior valor da matriz. A seguir, multiplique cada elemento da diagonal principal pelo maior valor encontrado. Mostre a matriz resultante após as multiplicações.*/

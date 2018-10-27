@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 5x5 de números reais, calcule e mostre a soma dos elementos da diagonais secundária.*/

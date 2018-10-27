@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 6x10, some as colunas individualmente e acumule as somas na 7ªlinha da matriz. Mostre o resultado de cada coluna.*/

@@ -1,0 +1,1 @@
+/*Faça um programa que calcule e mostre a média dos elementos da diagonal principal de uma matriz 10x10.*/

@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 20x10 com números inteiros e soma uma cada uma das colunas, armazenando o resultado da soma em uma vetor. A seguir, multiplique cada elemento da matriz pela soma da coluna e mostre a matriz resultante.*/

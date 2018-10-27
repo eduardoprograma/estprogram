@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 3x3 com números reais e receba um valor, números digitados pelo usuário, calcule e mostre a matriz resuktante da multiplicação do número digitado por elemento da matriz.*/

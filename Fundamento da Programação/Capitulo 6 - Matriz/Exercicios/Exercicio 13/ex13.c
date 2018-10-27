@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 2x3, calcule e mostre a quantidade de elementos da matriz que não pertencem ao intervalo |5, 15|.*/

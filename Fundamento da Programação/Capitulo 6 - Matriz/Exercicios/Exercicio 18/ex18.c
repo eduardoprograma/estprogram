@@ -1,0 +1,1 @@
+/*Faça um programa que carregue uma matriz 8x6 de inteiros, calcule e mostre a soma dos elemnetos das linhas pares da matriz.*/
