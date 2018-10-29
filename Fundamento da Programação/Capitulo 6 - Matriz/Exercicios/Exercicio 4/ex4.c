@@ -29,8 +29,7 @@ main()
     for(i = 0; i < ALUNO; i++)
     {
         printf("Digite o nome do aluno %d: ", i + 1);
-        scanf("%s", &nome);
-        nomeAluno[i][j] = nome;
+        scanf("%s", nomeAluno[i]);
         printf("\n");
         for(j = 0; j < NOTAS; j++)
         {
@@ -42,7 +41,7 @@ main()
     }
 
     /*Bloco de comando*/
-    printf("\n%s\t%20s\t%22s\t%15s\t\n", "Nome", "Notas", "Média", "Situação");
+    printf("\n%s\t%20s\t%22s\t%20s\t\n", "Nome", "Notas", "Média", "Situação");
     for(i = 0; i < ALUNO; i++)
     {
         printf("%s\t", nomeAluno[i]);
