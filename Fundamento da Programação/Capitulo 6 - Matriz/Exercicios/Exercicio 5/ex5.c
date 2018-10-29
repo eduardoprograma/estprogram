@@ -30,7 +30,7 @@ main()
         printf("Digite as vendas do Mês %s\n", vetorMes[i]);
         for(j = 0; j < VENDASSEMANA; j++)
         {
-            printf("Semana %d: $", i);
+            printf("Semana %d: $", j + 1);
             scanf("%f", &num);
             vetorSemana[i][j] = num;
         }
@@ -39,30 +39,31 @@ main()
 
     /*Bloco de comandos*/
     /*O total vendido em cada mês do ano, mostrando o nome do mês por extenso:*/
+    printf("\nTotal vendido por mês:\n");
+    printf("%10s\t%3s\t\n", "Mês", "TOTAL");
     for(i = 0; i < VENDASMES; i++)
     {
-        printf(" O total de vendas no mês %s: $", vetorMes[i]);
+        printf("%10s\t", vetorMes[i]);
         for(j = 0; j < VENDASSEMANA; j++)
         {
-            TotalMes += vetorSemana[i][j];
+            vetorT_Semana[i] += vetorSemana[i][j];
         }
-        printf("%.2f", vetorT_Semana[i]);
+        printf("%8.2f\t", vetorT_Semana[i]);
         TotalMes = 0;
         printf("\n");
     }
-
+    printf("\n\n");
     /*O total vendido em cada semana durante todo o ano*/
-    printf("%s\t%s\t%s\t%s\t%s\t\n", "Mês", "Semana 1", "Semana 2", "Semana 3", "Semana 4");
+    printf("%10s\t%s\t%s\t%s\t%s\t\n", "Mês", "Semana 1", "Semana 2", "Semana 3", "Semana 4");
     for(i = 0; i < VENDASMES; i++)
     {
-        printf("%s", vetorMes[i]);
-        for(i = 0; i < VENDASSEMANA; i++)
+        printf("%10s\t", vetorMes[i]);
+        for(j = 0; j < VENDASSEMANA; j++)
         {
-            printf("%.2f", vetorSemana[i][j]);
-            vetorT_Semana[i]+= vetorSemana[i][j];
+            printf("%8.2f\t", vetorSemana[i][j]);
         }
-        /*O totalvendido em cada semana durante todo o ano*/
-        printf("%.2f", vetorT_Semana[i]);
+        printf("\n");
+        //system("pause");  //Para teste pois o código deu problema neste ponto
     }
 
     /*O total vendido pela loja no ano*/
