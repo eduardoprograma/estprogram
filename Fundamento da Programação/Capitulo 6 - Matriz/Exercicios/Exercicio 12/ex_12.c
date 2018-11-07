@@ -1,1 +1,0 @@
-/*Faça um programa que carregue uma matriz 6x4. Recalcule a matriz digitada, onde cada linha será multiplicada pelo maior elemento da linha em questão. Mostre a matriz rsultante.*/
