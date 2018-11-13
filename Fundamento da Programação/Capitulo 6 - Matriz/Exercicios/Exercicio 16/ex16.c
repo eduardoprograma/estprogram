@@ -16,14 +16,14 @@ main()
     /*DECLARAÇÃO DE VARIÁVEIS*/
     int matrizNum[LINHA][COLUNA] = {0};
     int i, j;
-    int vetorDiagonal[1] = {0};
+    int somaDiagonal = 0;
 
     /*ENTRADA DE DADOS*/
     for(i = 0; i < LINHA; i++)
     {
         for(j = 0; j < COLUNA; j++)
         {
-            printf("L:%d C:%d : Digite um número: ");
+            printf("L:%d C:%d : Digite um número: ", i + 1, j +1);
             scanf("%d", &matrizNum[i][j]);
         }
         printf("\n");
@@ -33,11 +33,12 @@ main()
     /*CALCULO DA DIAGONAL*/
     for(i = 0; i < LINHA; i++)
     {
-        vetorDiagonal[i] += matrizNum[i][i];
+        j++;
+        somaDiagonal += matrizNum[i][j];
     }
     
     /*SAÍDA DE DADOS*/
-    printf("\n\nO valor e: %d\n\n", vetorDiagonal[i]);
+    printf("\n\nO valor e: %d\n\n", somaDiagonal);
 
     /*ECERRAMNTO*/
     system("pause");
