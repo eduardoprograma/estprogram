@@ -1,0 +1,1 @@
+/*que o seguinte código imprime? printf("*\n**\n***\n****\n*****\n");*/
