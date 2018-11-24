@@ -1,1 +1,0 @@
-/*Usando um método similar ao do Exercício 3.24, encontre os dois maiores valores de 10 números. Nota: Cada número só pode ser fornecido uma única vez.*/

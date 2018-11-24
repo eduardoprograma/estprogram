@@ -1,1 +1,0 @@
-/*Escreva um programa que calcule e imprima a soma dos inteiros pares de 2 a 30.*/

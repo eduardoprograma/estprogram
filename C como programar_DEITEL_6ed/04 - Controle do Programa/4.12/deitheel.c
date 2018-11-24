@@ -1,1 +1,0 @@
-/*Escreva um programa que encontre o menor valor entre vários inteiros. Admita que o primeiro valor lido especifica o número de valores restantes.*/

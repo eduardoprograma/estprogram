@@ -1,1 +1,0 @@
-/*Usando apenas as técnicas aprendidas neste capítulo, escreva um programa que calcule o quadrado e o cubo dos números de 0 a 10 e use tabulações para imprimir a seguinte tabela de valores:*/

@@ -1,1 +1,0 @@
-/*Modifique o programa da Fig. 4.7 de forma que ele calcule o grau médio da turma.*/

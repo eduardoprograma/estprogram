@@ -1,1 +1,0 @@
-/*Escreva um programa que leia três valores float diferentes de zero e depois determine e imprima se eles podem representar os lados de um triângulo.*/
