@@ -1,0 +1,1 @@
+/*Faça um programa que receba os preços de 20 produtos em 5 lojas diferentes e armazene-osem uma matriz 20x5. Desconsiderando empates, mostre o número do produto e o número da loja do produto mais caro.*/
