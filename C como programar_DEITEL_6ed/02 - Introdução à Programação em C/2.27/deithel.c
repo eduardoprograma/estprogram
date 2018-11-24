@@ -1,1 +1,0 @@
-/*Desenhe um padrão tipo tabuleiro de xadrez utilizando instruções printf e então exiba o mesmo padrão com o menor número de instruções printf possível.*/

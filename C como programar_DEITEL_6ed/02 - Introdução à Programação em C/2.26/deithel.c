@@ -1,1 +1,0 @@
-/*Escreva um programa que leia dois inteiros e então determine e imprima se o primeiro é múltiplo do segundo. (Dica: Use o operador resto.)*/

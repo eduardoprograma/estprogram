@@ -1,1 +1,0 @@
-/*Escreva um programa que leia cinco números inteiros e então determine e imprima o maior e o menor inteiro do grupo. Use somente as técnicas de programação ensinadas neste capítulo.*/
